@@ -1,0 +1,29 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1F1F1F;
+}
+
+.nav-bar {
+    position: fixed;
+    
+    display: flex;
+    justify-content: space-evenly;
+
+    width: 100%;
+    background-color: #1F1F1F;
+    bottom: 0;
+
+    padding: 1.2em 0;
+
+    border-top: 3px solid;
+    border-color: #626262;
+    z-index: 10;
+}
+
+.nav-bar a{
+    float: flex;
+    color: white;
+}

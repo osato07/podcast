@@ -1,0 +1,53 @@
+.html, body  {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.padnone {
+    padding: 0;
+    margin: 0;
+}
+
+.black {
+    font-weight: 900;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.regular {
+    font-weight: 600;
+}
+
+.light {
+    font-weight: 300;
+}
+
+.size1 {
+    font-size: 5vw;
+}
+
+.size2 {
+    font-size: 4vw;
+}
+
+.size3 {
+    font-size: 2.7vw;
+}
+
+.size4 {
+    font-size: 1.3vw;
+}
+
+.size5 {
+    font-size: 1vw;
+}
+
+.size6 {
+    font-size: 0.8vw;
+}
+
+
+.a-none a{
+    text-decoration: none;
+}
