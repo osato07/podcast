@@ -26,4 +26,22 @@ body, html {
 .nav-bar a{
     float: flex;
     color: white;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+#linkA:hover {
+    opacity: 0.5;
+}
+
+#linkB:hover {
+    opacity: 0.5;
+}
+
+#linkC:hover {
+    opacity: 0.5;
+}
+
+#linkD:hover {
+    opacity: 0.5;
 }
