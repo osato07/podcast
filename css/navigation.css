@@ -3,7 +3,6 @@ body, html {
     padding: 0;
     width: 100%;
     height: 100%;
-    background-color: #1F1F1F;
 }
 
 .nav-bar {
@@ -43,5 +42,9 @@ body, html {
 }
 
 #linkD:hover {
+    opacity: 0.5;
+}
+
+#linkE:hover {
     opacity: 0.5;
 }

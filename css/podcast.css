@@ -1,7 +1,6 @@
 body {
     transition: opacity 0.5s ease;
-    background-color: white;
-
+    background-color: #1F1F1F;
 }
 
 body.fade-out {
@@ -15,7 +14,7 @@ body.fade-out {
     margin-top: 100px;
     padding-bottom: 100px;
 
-    color: #1F1F1F;
+    color: white;
 }
 
 .container {
@@ -27,26 +26,21 @@ body.fade-out {
 }
 
 .post {
-    flex: 0 0 19%; /* 各ポストが全体の25%の幅を持つ */
-    height: 245px;
-
-    margin: auto;
+    flex: 0 0 24%; /* 各ポストが全体の25%の幅を持つ */
+    height: 300px; /* 高さは任意に設定可能 */
     display: flex;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
+    margin: 6px auto;
     background-color:aliceblue;
-    margin-bottom: 10%;
-   
-    border-radius: 10px;
-    
 }
 
 .content img{
     text-align: center;
     justify-content: center;
     margin: auto;
-    width: 94%;
-    height: auto;
+    width: 95%;
     padding: 10px 0; 
     object-fit: cover;
 
@@ -59,14 +53,6 @@ body.fade-out {
 }
 
 .main-title {
-    width: 40%;
-    align-items: center;
-
-    margin: auto;
-
-}
-
-.main-title img {
-    width: 100%;
-    justify-content: center;
+    margin-bottom: 50px;
+    margin-left: 10px;
 }

@@ -1,5 +1,7 @@
 body {
     transition: opacity 0.5s ease;
+    background-color: #1F1F1F;
+
 }
 
 body.fade-out {
