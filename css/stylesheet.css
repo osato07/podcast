@@ -61,12 +61,17 @@ body.fade-out {
 .main-title {
     width: 40%;
     align-items: center;
-
+    justify-content: center;
+    
     margin: auto;
-
 }
 
 .main-title img {
     width: 100%;
     justify-content: center;
+}
+
+.main-title p {
+    width: 100%;
+    text-align: center;
 }

@@ -1,5 +1,6 @@
 .html, body  {
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
 }
 
 .padnone {
@@ -7,20 +8,24 @@
     margin: 0;
 }
 
+.weight1000 {
+    font-weight: 1000;
+}
+
 .black {
-    font-weight: 900;
-}
-
-.bold {
-    font-weight: 800;
-}
-
-.regular {
     font-weight: 600;
 }
 
-.light {
+.bold {
+    font-weight: 450;
+}
+
+.regular {
     font-weight: 300;
+}
+
+.light {
+    font-weight: 100;
 }
 
 .size1 {
@@ -36,15 +41,15 @@
 }
 
 .size4 {
-    font-size: 1.3vw;
+    font-size: 2vw;
 }
 
 .size5 {
-    font-size: 1vw;
+    font-size: 1.7vw;
 }
 
 .size6 {
-    font-size: 0.8vw;
+    font-size: 1.3vw;
 }
 
 
