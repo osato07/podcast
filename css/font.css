@@ -8,6 +8,18 @@
     margin: 0;
 }
 
+.big-margin {
+    margin-bottom: 8vw;
+}
+
+.margin {
+    margin-bottom: 5vw;
+}
+
+.small-margin {
+    margin-bottom: 0.7vw;
+}
+
 .weight1000 {
     font-weight: 1000;
 }

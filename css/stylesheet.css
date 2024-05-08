@@ -36,9 +36,15 @@ body.fade-out {
     align-items: center;
     background-color:aliceblue;
     margin-bottom: 10%;
-   
-    border-radius: 10px;
-    
+    border-radius: 10px; 
+
+    transition: transform 0.2s ease-in-out; /* トランジションの設定 */
+}
+
+.cursor:hover {
+    opacity: 0.5;
+    transform: scale(0.95);
+    transition: transform 0.2s ease-in-out; /* トランジションの設定 */
 }
 
 .content img{
@@ -55,7 +61,7 @@ body.fade-out {
 }
 
 .content:hover img {
-    opacity: 0.5; 
+    opacity: 0.5;
 }
 
 .main-title {
